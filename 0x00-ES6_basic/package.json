@@ -1,0 +1,16 @@
+{
+  "name": "0x00-es6_basic",
+  "version": "1.0.0",
+  "description": "0x00. ES6 Basics JavaScript, ES6",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "keywords": [],
+  "author": "kyalo3",
+  "license": "ISC",
+  "dependencies": {
+    "dependency-name": "version"
+  }
+}
