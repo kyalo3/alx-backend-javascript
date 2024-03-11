@@ -19,7 +19,8 @@ module.exports = {
   plugins: ['jest'],
   rules: {
     'import/extensions': [
-      'error', 'ignorePackages']
+      'error', 
+      'ignorePackages'],
     'no-console': 'off',
     'no-shadow': 'off',
     'no-restricted-syntax': [
