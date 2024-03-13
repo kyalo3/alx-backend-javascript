@@ -7,13 +7,8 @@ interface Teacher {
 	contract: boolean;
 }
 
-interface Directors {
-	firstName: string;
-	lastName: string;
-	fullTimeEmployee: boolean;
-	yearsOfExperience: number;
-	location: string;
-	contract: boolean;
+interface Directors extends Teacher {
+	numberOfReports: number;
 }
 
 const teacher3: Teacher = {
@@ -31,5 +26,7 @@ const director1: Directors = {
   fullTimeEmployee: true,
   numberOfReports: 17,
 };
+
+console.log(teacher3);
 
 console.log(director1);
