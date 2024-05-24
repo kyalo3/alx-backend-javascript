@@ -1,4 +1,3 @@
-
 export default class HolbertonCourse {
   constructor(name, length, students) {
     this._name = this.validateName(name);
@@ -54,4 +53,3 @@ export default class HolbertonCourse {
     return value;
   }
 }
-
